@@ -12833,7 +12833,7 @@
  @media(min-width: 992px) {
      #mainNav {
          border-color: transparent;
-         background-color: transparent
+         background-color: transparent;
      }
 
      #mainNav .navbar-nav>li.nav-item>a.nav-link {
