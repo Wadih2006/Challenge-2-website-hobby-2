@@ -11,12 +11,27 @@
 
 <body>
     <!-- <video id="goprovideo" src="./winkelen.imgs/1 min GoPro video.mp4"></video> -->
+    <nav class="navbar navbar-light navbar-expand-md sticky-top navbar-shrink py-3" id="mainNav"
+    style="background: #dc3545">
 
+    <div class="container"><a class="navbar-brand d-flex align-items-center" href="/"><span>Ik hou van hobby's</span></a><button data-bs-toggle="collapse" class="navbar-toggler"
+            data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navcol-1">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a class="nav-link active" href="/index.html">Home</a></li>
+                <li class="nav-item"></li>
+                <li class="nav-item"><a class="nav-link" href="winkelen.html">Winkelen</a></li>
+                <li class="nav-item"><a class="nav-link" href="/contacts.html">Contacten</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
     <div class="container py-4 py-xl-5">
         <div class="row mb-5">
             <div class="col-md-8 col-xl-6 text-center mx-auto">
                 <h2>Ik hou van hobby's   </h2>
-                <p id="discount">New with a discount of <mark>20%</mark>0ff.</p>
+                <p id="discount">New with a discount of <mark>20%</mark>off.</p>
             </div>
         </div>
         <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
@@ -81,6 +96,16 @@
             </div>
             <div class="col">
                 <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;"
+                        src="winkelen.imgs/Paintball.jpg">
+                    <div class="py-4">
+                        <h4>Paintball</h4>
+                        <p> Address: <br> Wipstraat 1 <br> 3630 Maasmechelen, België Price:<span class="price"> <del>50€</del> 40€ </span></p>
+                    </div>
+                    <button>Buy now</button>
+                </div>
+            </div>
+            <div class="col">
+                <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;"
                         src="./winkelen.imgs/Raften.jpg">
                     <div class="py-4">
                         <h4>Rafting</h4>
@@ -91,7 +116,5 @@
             </div>
         </div>
     </div>
-
 </body>
-
 </html>
