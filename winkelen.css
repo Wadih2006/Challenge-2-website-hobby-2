@@ -60,7 +60,7 @@ body {
     background-color: var(--bs-body-bg);
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
-    
+   
 }
 
 hr {
@@ -9039,7 +9039,9 @@ fieldset:disabled .btn {
 .text-nowrap {
     white-space: nowrap !important
 }
-
+.navbar-nav .show>.nav-link, .navbar-nav .nav-link.active {
+    color: var(--bs-navbar-active-color);
+}
 .text-break {
     word-wrap: break-word !important;
     word-break: break-word !important
@@ -12636,7 +12638,7 @@ mark {
     background-color: mark;
   
 }
-/* #goprovideo {
-    position: fixed;
-    z-index: -1;
-} */
+a{
+    text-decoration: none;
+}
+   
