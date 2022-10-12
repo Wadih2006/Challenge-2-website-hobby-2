@@ -9,7 +9,7 @@
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 .content{
     font-size: 30px;
@@ -21,7 +21,7 @@
     line-height: 50px;
 }
 .content{
-    background: linear-gradient(50deg, #f3c680, hsla(179,54%,76%,1));
+    background: linear-gradient(50deg, #000000, hsla(179,54%,76%,1));
     width: 1920px;
     height: 890px;
 }
